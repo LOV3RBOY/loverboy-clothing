@@ -1,24 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Loverboy Clothing
+
+A modern, responsive website for **Loverboy Clothing** - an elevated streetwear brand. Built with Next.js, TypeScript, and Tailwind CSS featuring sleek animations and premium user experience.
+
+## Features
+
+- 🎨 Modern, responsive design
+- ✨ Smooth animations and transitions
+- 🔧 Built with Next.js 15 and TypeScript
+- 🎭 Styled with Tailwind CSS and shadcn/ui components
+- 📱 Mobile-first responsive design
+- ⚡ Optimized performance with Turbopack
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+bun install
+```
+
+Then, run the development server:
+
+```bash
 bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS + shadcn/ui
+- **Development**: Bun package manager
+- **Linting**: Biome + ESLint
 
 ## Learn More
 
